@@ -1,0 +1,22 @@
+{
+  "name": "aip444-lab03-pr-advice",
+  "version": "1.0.0",
+  "description": "AIP444 Lab 3: GitHub PR Explainer CLI using OpenRouter",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx pr-advice.ts",
+    "start": "tsx pr-advice.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
