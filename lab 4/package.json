@@ -1,0 +1,29 @@
+{
+  "name": "lab-04-structured-flashcards",
+  "version": "1.0.0",
+  "description": "Lab 4: Structured Outputs and Code Reading flashcard API",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hono/node-server": "latest",
+    "@hono/zod-validator": "latest",
+    "dotenv": "latest",
+    "hono": "latest",
+    "openai": "latest",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
