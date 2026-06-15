@@ -1,0 +1,11 @@
+PR URL:
+https://github.com/microsoft/vscode/pull/289801
+
+Repository:
+microsoft/vscode
+
+Changed file:
+package.json
+
+Diff/comment summary:
+This PR changes package.json. Analyze what changed. If you need more context, use the read_github_files tool to fetch the full package.json file from microsoft/vscode on the main branch.

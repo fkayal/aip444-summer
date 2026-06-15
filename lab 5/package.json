@@ -1,0 +1,19 @@
+{
+  "name": "lab-05-pr-advice-tools",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test:tool": "tsx test-tool.ts",
+    "analyze": "tsx analyze-pr-with-tools.ts"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "openai": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}

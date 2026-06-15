@@ -1,0 +1,18 @@
+PR URL:
+Example self-contained PR
+
+Repository:
+example/demo
+
+Diff:
+diff --git a/README.md b/README.md
+--- a/README.md
++++ b/README.md
+@@ -1,3 +1,4 @@
+ # Demo Project
+
+ This project demonstrates a simple CLI tool.
++Fixed a typo in the README introduction.
+
+Task:
+Analyze this PR. This change is simple and self-contained, so do not fetch extra GitHub files unless absolutely necessary.

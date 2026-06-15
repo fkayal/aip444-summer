@@ -1,0 +1,22 @@
+PR URL:
+https://github.com/microsoft/vscode/pull/289801
+
+Repository:
+microsoft/vscode
+
+Changed file:
+package.json
+
+Diff:
+diff --git a/package.json b/package.json
+--- a/package.json
++++ b/package.json
+@@ -1,6 +1,7 @@
+ {
+   "name": "code-oss-dev",
++  "description": "Updated package metadata for testing",
+   "version": "1.0.0"
+ }
+
+Task:
+Analyze this PR. Because package.json is a central project file and this diff has very little surrounding context, use the read_github_files tool to fetch the full package.json from microsoft/vscode on the main branch before giving the final analysis.
